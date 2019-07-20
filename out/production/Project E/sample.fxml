@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="pane" maxHeight="590.0" maxWidth="775.0" minHeight="590.0" minWidth="775.0" prefHeight="590.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="28.0" layoutX="-24.0" layoutY="856.0" stroke="BLACK" strokeType="INSIDE" width="520.0" />
+        <GridPane fx:id="resGrid" prefHeight="387.0" prefWidth="520.0" BorderPane.alignment="CENTER">
+        </GridPane>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0050bfdc" height="28.0" layoutX="37.0" layoutY="-530.0" stroke="BLACK" strokeType="INSIDE" />
+        <BorderPane layoutX="53.0" layoutY="114.0" prefHeight="392.0" prefWidth="493.0">
+            <right>
+            </right>
+            <center>
+                <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                    <content>
+                        <GridPane fx:id="grid1" prefHeight="387.0" prefWidth="520.0">
+
+                        </GridPane>
+                    </content>
+                </ScrollPane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>

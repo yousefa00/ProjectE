@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<AnchorPane fx:id="pane" maxHeight="1040.0" maxWidth="800.0" minHeight="894.0" minWidth="800.0" prefHeight="840.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <ScrollPane fx:id="scrollPane" layoutX="1.0" layoutY="2.0" prefHeight="841.0" prefWidth="1040.0">
+        <content>
+          <AnchorPane fx:id="islandPane" minHeight="0.0" minWidth="0.0" prefHeight="1040.0" prefWidth="1350.0">
+              <GridPane fx:id="grid1" prefHeight="387.0" prefWidth="519.0">
+              </GridPane>
+          </AnchorPane>
+        </content>
+      </ScrollPane>
+        <GridPane fx:id="resGrid" minHeight="100.0" minWidth="500.0" prefHeight="392.0" prefWidth="500.0" />
+      <ChoiceBox fx:id = "islandBox" prefWidth="150.0" />
+    </children>
+</AnchorPane>
